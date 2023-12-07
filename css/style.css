@@ -1,0 +1,115 @@
+/* -----Seema Negi C0919344----*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(223, 232, 232);
+    background-image:url(/img/b2.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+     width: auto;
+    height: auto;
+    
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:left;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    padding-bottom:0px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #110303;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+#hero h4 {
+    padding-bottom:10px;
+    color:rgb(58, 24, 152);
+}
+
+#hero h1 {
+color:cadetblue;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.65em;
+  clear: left;
+}
+
+footer a {
+  color: #4645a8;
+  text-decoration: none;
+}
+/*style rules for main content*/
+main {
+    display: block;
+    margin: 0%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    background-color: #c2deb1;
+    overflow: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  main p {
+    font-size: 1.25em;
+  }
+  
+  .action {
+    font-size: 1.20em;
+    color: #390fc3;
+    font-weight: bold;
+  }
+  section {
+    float: right;
+  }
+  aside{
+    float:left
+  }
+  .product {
+    border: 10px solid #e6eeed;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+}
+
+.product img {
+    max-width: 100%;
+    border: 2px solid #e6eeed;
+}
